@@ -1,0 +1,31 @@
+{
+  "name": "ssr-browser-reload-webpack-plugin",
+  "version": "1.0.0",
+  "description": "Plugins for reloading you browser on changes when using server side rendering.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MechoshiPuhanaga/ssr-browser-reload-webpack-plugin.git"
+  },
+  "keywords": [
+    "webpack",
+    "plugin",
+    "ssr",
+    "server",
+    "rendering",
+    "browser"
+  ],
+  "author": "Mechoshi Puhanaga",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MechoshiPuhanaga/ssr-browser-reload-webpack-plugin/issues"
+  },
+  "homepage": "https://github.com/MechoshiPuhanaga/ssr-browser-reload-webpack-plugin#readme",
+  "dependencies": {
+    "axios": "0.18.0",
+    "neo-async": "2.5.2"
+  }
+}
