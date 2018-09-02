@@ -9,7 +9,17 @@ Consider the following:
 * Is used in a single page application project.
 * Does not reload on changes in your `index.html` file.
 
+## How to install
+* In your project's folder terminal execute:
+```
+npm install --save-dev ssr-browser-reload-webpack-plugin
+```
+
 ## How to use
+* Require the plugins:
+```
+const {SSRReloadClientPlugin, SSRReloadServerPlugin} = require('ssr-browser-reload-webpack-plugin');
+```
 * Add an instance of the `SSRReloadClientPlugin` to your webpack config for the `client bundle` and provide all parameters to the constructor.
 * Add an instance of the `SSRReloadServer Plugin` to your webpack config for the `server bundle` and provide all parameters to the constructor.
 * Build your code, start your ssr-server and open your app in the browser, then the browser will reload after changes in your `JavaScript` or `style` files.
