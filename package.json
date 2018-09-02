@@ -1,6 +1,6 @@
 {
   "name": "ssr-browser-reload-webpack-plugin",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "Plugins for reloading you browser on changes when using server side rendering.",
   "main": "index.js",
   "scripts": {
